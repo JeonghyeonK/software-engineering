@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form method="post" action="/">
+		<p>worNo : <input type="text" name="worNo"></p>
+		<p>worId : <input type="text" name="worId"></p>
+		<p>worPwd : <input type="text" name="worPwd"></p>
+		<p>worName : <input type="text" name="worName"></p>
+		<p>worTel : <input type="text" name="worTel"></p>
+		<p>worAddr : <input type="text" name="worAddr"></p>
+		<p>worPosition : <input type="text" name="worPosition"></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+	<form method="post" action="/delete">
+		<p>삭제</p>
+		<p>worNo : <input type="text" name="worNo"></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+	<form method="post" action="/update">
+		<p>업데이트</p>
+		<p>Now worNo : <input type="text" name="before"></p>
+		<p>Changed worNo : <input type="text" name="after"></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+</body>
+</html>
